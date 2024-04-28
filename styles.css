@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto , sans-serif;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,228,233,1) 100%);
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 40px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.form{
+    text-align: center;
+    margin: 4rem 0rem;
+
+}
+.form input{
+    margin: 0px 8px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form #btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+.information{
+    width: 70%;
+    margin: 3rem auto;
+}
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(83,191,190);
+    background: radial-gradient(circle, rgba(83,191,190,1) 0%, rgba(231,0,255,1) 100%);
+    padding: 1.5rem 2.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    width: 80%;
+    margin: 1rem auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 14px 28px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 8px 16px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.plus , .minus{
+    padding: 8px 16px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}   
